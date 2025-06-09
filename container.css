@@ -1,0 +1,41 @@
+.container-top {
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 32vh;
+  /* padding-top: 10px; */
+  background-color: black;
+}
+
+.container-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.container-mid {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 32vh;
+  /* padding-top: 10px; */
+  /* background-color: black; */
+}
+
+.container-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 32vh;
+  /* padding-top: 10px; */
+  color: white; 
+  background-color: black;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* 0.5 = 50% opacity */
+  url(image/contact-bg.jpg);
+
+}
