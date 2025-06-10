@@ -10,17 +10,15 @@
         <div class="logo">
             <img src="image/logo.png" alt="AccX Solution Logo" width="75" height="75">
         </div>
-        <!-- <div class="nav-links">
-            <a href="home.html">Home</a>
-            <a href="price_rate.html">Price Rate</a>
-            <a href="contact.html">Contact Us</a>
-        </div> -->
-        <button onclick="location.href='index.html'">Home</button>
-        <button onclick="location.href='price_rate.html'">Price Rate</button>
-        <button onclick="location.href='contact.html'">Contact Us</button>
+        <ul class="menu">
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="price_rate.html" id="price_rate">Price Rate</a></li>
+            <li><a href="contact.html" id="contact_us">Contact Us</a></li>
+        </ul>
         <div class="navbar-right">
-            <button onclick="document.body.className='light-theme'">Light</button>
-            <button onclick="document.body.className='dark-theme'">Dark</button>
+            <button id="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
+            <button id="language-toggle" onclick="toggleLanguage()">EN</button>
+
         </div>
     </nav>
     <article>
