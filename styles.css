@@ -216,3 +216,7 @@ hr {
     border: none;
     margin: 0;
 }
+
+#language-toggle {
+    text-transform: uppercase;
+}
